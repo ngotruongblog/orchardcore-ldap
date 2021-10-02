@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+  <PropertyGroup>
+    <AddRazorSupportForMvc>true</AddRazorSupportForMvc>
+    <!-- NuGet properties-->
+    <Title>OrchardCore Ldap</Title>
+    <Description>$(OCFrameworkDescription)
+    Provides ldap settings configuration.</Description>
+    <PackageTags>$(PackageTags) OrchardCoreFramework</PackageTags>
+  </PropertyGroup>
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+	<PackageReference Include="Novell.Directory.Ldap.NETStandard" Version="3.6.0" />
+    <PackageReference Include="OrchardCore.Admin.Abstractions" Version="1.0.0" />
+    <PackageReference Include="OrchardCore.Data.Abstractions" Version="1.0.0" />
+    <PackageReference Include="OrchardCore.Data.YesSql.Abstractions" Version="1.0.0" />
+    <PackageReference Include="OrchardCore.DisplayManagement" Version="1.0.0" />
+    <PackageReference Include="OrchardCore.Infrastructure.Abstractions" Version="1.0.0" />
+    <PackageReference Include="OrchardCore.Mvc.Core" Version="1.0.0" />
+    <PackageReference Include="OrchardCore.Navigation.Core" Version="1.0.0" />
+    <PackageReference Include="OrchardCore.Users.Abstractions" Version="1.0.0" />
+    <PackageReference Include="OrchardCore.Users.Core" Version="1.0.0" />
+    <PackageReference Include="YesSql.Abstractions" Version="3.0.7" />
+  </ItemGroup>
+</Project>

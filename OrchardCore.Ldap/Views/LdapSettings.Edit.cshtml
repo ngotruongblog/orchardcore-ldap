@@ -1,0 +1,45 @@
+@using OrchardCore.Ldap.Models
+@model LdapSettingsViewModel
+
+<div class="mb-4">
+        <div class="card">
+            <div class="card-body">
+                <div class="form-group" asp-validation-class-for="Pattern">
+                    <label asp-for="Pattern">Pattern</label>
+                    <input asp-for="Pattern" class="form-control" type="text" />
+                    <span asp-validation-for="Pattern"></span>
+                </div>
+                <div class="form-group" asp-validation-class-for="Host">
+                    <label asp-for="Host">Host</label>
+                    <input asp-for="Host" class="form-control" type="text" />
+                    <span asp-validation-for="Host"></span>
+                </div>
+                <div class="form-group" asp-validation-class-for="Port">
+                    <label asp-for="Port">Port</label>
+                    <input asp-for="Port" class="form-control" type="text" />
+                    <span asp-validation-for="Port"></span>
+                </div>
+                <div class="form-group" asp-validation-class-for="Account">
+                    <label asp-for="Account">Account</label>
+                    <input asp-for="Account" class="form-control" type="text" />
+                    <span asp-validation-for="Account"></span>
+                </div>
+                <div class="form-group" asp-validation-class-for="Pass">
+                    <label asp-for="Pass">Pass</label>
+                    <input asp-for="Pass" class="form-control" type="text" />
+                    <span asp-validation-for="Pass"></span>
+                </div>
+                <div class="form-group" asp-validation-class-for="Base">
+                    <label asp-for="Base">Base</label>
+                    <input asp-for="Base" class="form-control" type="text" />
+                    <span asp-validation-for="Base"></span>
+                </div>
+            </div>
+        </div>
+ </div>
+
+<script at="Foot">
+    $(function () {
+
+    });
+</script>

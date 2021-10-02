@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cms.Web", "Cms.Web\Cms.Web.csproj", "{398FDE01-4EC1-4084-BDDE-3CC46FD40883}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrchardCore.Ldap", "OrchardCore.Ldap\OrchardCore.Ldap.csproj", "{F46356AE-78BF-46AC-9F6D-9C65B0BF637B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{398FDE01-4EC1-4084-BDDE-3CC46FD40883}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{398FDE01-4EC1-4084-BDDE-3CC46FD40883}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{398FDE01-4EC1-4084-BDDE-3CC46FD40883}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{398FDE01-4EC1-4084-BDDE-3CC46FD40883}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F46356AE-78BF-46AC-9F6D-9C65B0BF637B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F46356AE-78BF-46AC-9F6D-9C65B0BF637B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F46356AE-78BF-46AC-9F6D-9C65B0BF637B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F46356AE-78BF-46AC-9F6D-9C65B0BF637B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6034512E-AB9D-4B5D-A828-A5479F274723}
+	EndGlobalSection
+EndGlobal
